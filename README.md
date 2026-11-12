@@ -24,7 +24,6 @@ Nenhum framework foi utilizado aqui. O projeto foi construído na base, com:
 ## 🔗 Sobre a API
 Os dados são fornecidos pela excelente e gratuita [The Rick and Morty API](https://rickandmortyapi.com/).
 
----
 ## 👤 Autor
 
 Feito com dedicação por [Kevin Soares](https://github.com/KevinSoaresFC)
