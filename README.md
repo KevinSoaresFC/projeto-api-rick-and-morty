@@ -1,5 +1,7 @@
 # 🛸 Universo Rick and Morty - Consumo de API REST
 
+![Status do Projeto](https://img.shields.io/badge/Status-Conclu%C3%ADdo-brightgreen)
+
 Fala, pessoal! 👋 Este é o meu projeto prático de **Front-End**, desenvolvido para aplicar conceitos de consumo de dados em tempo real (APIs) e manipulação dinâmica do DOM.
 
 ## 🎯 Qual foi o desafio?
