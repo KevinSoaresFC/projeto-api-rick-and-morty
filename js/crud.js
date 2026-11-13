@@ -6,22 +6,23 @@
  * API: https://rickandmortyapi.com/api/character
  *****************************************************************************************************************/
 
-// Retorna todos os personagens da página 1
+
+
 const getAllPersonagens = async function(){
     let URL = 'https://rickandmortyapi.com/api/character'
 
-    // O await faz o código "esperar" a resposta da API (substitui o .then)
+
     let response = await fetch(URL)
 
-    // Converte a resposta para JSON
+
     let dados = await response.json()
     
-    // Recebe o elemento principal para colocar a lista de dados
+    
     let divListDados = document.getElementById('container-cards')
 
-    divListDados.innerText = '' // Limpando a lista de cards (caso tenha algo)
+    divListDados.innerText = '' 
 
-    // O array de personagens fica dentro de dados.results
+
     dados.results.forEach(function(itemPersonagem){
         
         
@@ -63,7 +64,7 @@ const getAllPersonagens = async function(){
     })
 }
 
-// Executa a função para carregar os cards assim que a tela (window) for carregada
+// Executa a função dos cards
 window.addEventListener('load', function(){
     getAllPersonagens()
 })
